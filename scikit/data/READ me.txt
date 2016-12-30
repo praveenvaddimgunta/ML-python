@@ -1,0 +1,76 @@
+Cities
+------
+city, country, latitude, longitude
+
+
+coustmers
+---------
+coustmer, gender, age, annual income, spending score
+
+
+diabites
+----------
+1. Number of times pregnant 
+2. Plasma glucose concentration a 2 hours in an oral glucose tolerance test 
+3. Diastolic blood pressure (mm Hg) 
+4. Triceps skin fold thickness (mm) 
+5. 2-Hour serum insulin (mu U/ml) 
+6. Body mass index (weight in kg/(height in m)^2) 
+7. Diabetes pedigree function 
+8. Age (years) 
+9. Class variable (0 or 1) 
+
+Adult
+Listing of attributes: 
+
+>50K, <=50K. 
+
+age: continuous. 
+workclass: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked. 
+fnlwgt: continuous. 
+education: Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool. 
+education-num: continuous. 
+marital-status: Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse. 
+occupation: Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces. 
+relationship: Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried. 
+race: White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black. 
+sex: Female, Male. 
+capital-gain: continuous. 
+capital-loss: continuous. 
+hours-per-week: continuous. 
+native-country: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands
+
+sms
+----
+ham/spam   message...
+
+3D_spatial_network
+---------------------
+1. OSM_ID: OpenStreetMap ID for each road segment or edge in the graph. 
+2. LONGITUDE: Web Mercaptor (Google format) longitude 
+3. LATITUDE: Web Mercaptor (Google format) latitude 
+4. ALTITUDE: Height in meters. 
+
+Note: OSM_ID is the ID assigned by OpenStreetMaps ([Web Link]) to the road segments. Each (long,lat,altitude) point on a road segment (with unique OSM ID) is sorted in the same order as they appear on the road. So a 3D-polyline can be drawn by joining points of each row for each OSM_ID road segment.
+
+housing boston
+---------------
+Attribute Information:
+
+    1. CRIM      per capita crime rate by town
+    2. ZN        proportion of residential land zoned for lots over 
+                 25,000 sq.ft.
+    3. INDUS     proportion of non-retail business acres per town
+    4. CHAS      Charles River dummy variable (= 1 if tract bounds 
+                 river; 0 otherwise)
+    5. NOX       nitric oxides concentration (parts per 10 million)
+    6. RM        average number of rooms per dwelling
+    7. AGE       proportion of owner-occupied units built prior to 1940
+    8. DIS       weighted distances to five Boston employment centres
+    9. RAD       index of accessibility to radial highways
+    10. TAX      full-value property-tax rate per $10,000
+    11. PTRATIO  pupil-teacher ratio by town
+    12. B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks 
+                 by town
+    13. LSTAT    % lower status of the population
+    14. MEDV     Median value of owner-occupied homes in $1000's
